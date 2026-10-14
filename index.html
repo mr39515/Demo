@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Travel and food videos from Steven's Travel Penang. Watch every episode on YouTube.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8E%AC%3C/text%3E%3C/svg%3E">
+<title>Steven's Travel Penang | Watch on YouTube</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f6f1ea;--ink:#1a1512;--mute:#6b5f55;--ember:#d9480f;--gold:#f2b84b;
+--serif:"Fraunces",Georgia,serif;--sans:"Inter",system-ui,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0e0c0b;--ink:#f6efe6;--mute:#a79a8d}}
+:root[data-theme="dark"]{--bg:#0e0c0b;--ink:#f6efe6;--mute:#a79a8d}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.5}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.brand{font-family:var(--serif);font-weight:800;font-size:1.2rem}
+.sub{background:var(--ember);color:#fff;font-weight:600;padding:10px 20px;border-radius:999px;font-size:.95rem}
+.scene{position:relative;overflow:hidden;isolation:isolate;background:linear-gradient(var(--a),var(--b))}
+.scene::before{content:"";position:absolute;left:0;right:0;bottom:0;height:62%;background:var(--r1);clip-path:polygon(0 100%,0 55%,14% 28%,26% 50%,41% 12%,56% 46%,70% 22%,84% 48%,100% 30%,100% 100%);z-index:-1}
+.scene::after{content:"";position:absolute;left:0;right:0;bottom:0;height:38%;background:var(--r2);clip-path:polygon(0 100%,0 62%,18% 40%,34% 64%,52% 30%,68% 60%,86% 38%,100% 58%,100% 100%);z-index:-1}
+.sun{position:absolute;width:20%;aspect-ratio:1;border-radius:50%;background:var(--sun);right:16%;top:14%;filter:blur(2px);z-index:-2;box-shadow:0 0 70px 24px var(--sun)}
+.play{position:absolute;left:50%;top:44%;width:64px;height:64px;margin:-32px 0 0 -32px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center}
+.play::before{content:"";border-left:20px solid #1a1512;border-top:12px solid transparent;border-bottom:12px solid transparent;margin-left:5px}
+.feature{display:block;border-radius:22px;aspect-ratio:16/8.5;margin-bottom:12px}
+.feature .play{width:84px;height:84px;margin:-42px 0 0 -42px}
+.cap{position:absolute;left:0;right:0;bottom:0;padding:70px 28px 26px;background:linear-gradient(transparent,rgba(0,0,0,.78));color:#fff}
+.cap small{display:inline-block;background:var(--gold);color:#1a1512;font-weight:600;padding:3px 12px;border-radius:999px;margin-bottom:10px}
+.cap h1{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.6rem);line-height:1.05;margin:0 0 6px;max-width:16ch}
+.cap p{margin:0;font-size:1.05rem;opacity:.92}
+.tabs{display:flex;gap:22px;margin:34px 0 18px;border-bottom:1px solid color-mix(in srgb,var(--ink) 18%,transparent)}
+.tab{font:inherit;font-weight:600;font-size:1.05rem;background:none;border:0;color:var(--mute);padding:8px 0;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.tab[aria-selected="true"]{color:var(--ink);border-color:var(--ember)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:26px 20px;padding-bottom:48px}
+.card{display:block}
+.card .scene{aspect-ratio:16/9;border-radius:16px;transition:transform .2s}
+.card:hover .scene{transform:scale(1.025)}
+.card h3{font-family:var(--serif);font-weight:600;font-size:1.2rem;line-height:1.25;margin:12px 0 2px}
+.card p{margin:0;color:var(--mute);font-size:.92rem}
+.tag{position:absolute;left:12px;top:12px;background:rgba(0,0,0,.6);color:#fff;font-size:.78rem;font-weight:600;padding:3px 10px;border-radius:999px}
+.scene img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1}
+.scene.photo::before,.scene.photo::after{display:none}
+.feature.photo{aspect-ratio:16/9}
+.feature.photo .cap{top:0;bottom:auto;padding:18px 22px;background:linear-gradient(rgba(0,0,0,.65),transparent)}
+.feature.photo .cap h1,.feature.photo .cap p{display:none}
+.feature.photo .cap small{margin:0}
+.mh{font-family:var(--serif);font-weight:800;font-size:1.5rem;margin:30px 0 14px}
+.end{text-align:center;padding:56px 20px 40px;border-top:1px solid color-mix(in srgb,var(--ink) 18%,transparent)}
+.end h2{font-family:var(--serif);font-weight:800;font-size:clamp(1.7rem,4.5vw,2.6rem);margin:0 0 18px}
+.end .sub{display:inline-block;padding:14px 30px;font-size:1.05rem}
+footer{text-align:center;color:var(--mute);font-size:.88rem;padding-bottom:24px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><span class="brand">Steven's Travel Penang</span><a class="sub" id="s1" href="#">Subscribe</a></nav>
+  <a class="feature scene" id="feat" href="#" target="_blank" rel="noopener" style="--a:#ff9a5a;--b:#5b3a6e;--r1:#2a2147;--r2:#120d24;--sun:#ffd27a">
+    <span class="sun"></span><span class="play"></span>
+    <div class="cap"><small>Latest video</small><h1 id="ft">Newest upload</h1><p>Watch it first on YouTube.</p></div>
+  </a>
+  <div id="list"></div>
+</div>
+<section class="end"><h2>New videos every week</h2><a class="sub" id="s2" href="#">Watch on YouTube</a></section>
+<footer>Steven's Travel Penang</footer>
+<script>
+var CHANNEL="https://www.youtube.com/@stevenstravelpenang7832";
+// Add t:"Your video title" to any entry and the card will show it.
+var P=["--a:#ffb36b;--b:#8a3b2a;--r1:#3b1a1a;--r2:#1d0c0c;--sun:#ffd27a","--a:#1a2a5e;--b:#d9480f;--r1:#14183a;--r2:#0a0c20;--sun:#ffb347","--a:#9fd8d0;--b:#2f7d6d;--r1:#1c5a50;--r2:#0e332d;--sun:#fff3c4","--a:#cfe3f5;--b:#6d8fb5;--r1:#3c5a7d;--r2:#1f3350;--sun:#fffbe6","--a:#ffe29a;--b:#c9742b;--r1:#6b3f1d;--r2:#3a210d;--sun:#fff0b8","--a:#3a2410;--b:#c9892b;--r1:#2a170a;--r2:#140a04;--sun:#ffc861"];
+var M={Oct:"October",Sept:"September",Aug:"August",July:"July",June:"June"};
+var V=[["11 Oct","QX5KeOOqntY"],["4 Oct","scd8M-s0sAs"],["3 Oct","G-kNVwcnZRQ"],["27 Sept","XviLJUHeCWk"],["26 Sept","ywTh0F1ZSIc"],["14 Sept","8LvWERbUfAM"],["13 Sept","1bYpT6JvABA"],["7 Sept","WIw-hGkAB0E"],["6 Sept","4Rwesq6_CDE"],["31 Aug","S7O0lEKmKUc"],["30 Aug","wRO98hk5ZxU"],["23 Aug","qcUk0cFXlCk"],["23 Aug","73rHeINqlxo"],["16 Aug","KxvDawiQuTs"],["15 Aug","zIQiFhLF7YI"],["8 Aug","EQyj4tS5rgQ"],["2 Aug","goVYwqUODNw"],["26 July","udlaMDSVHkw"],["19 July","kxDq_d-3jY4"],["12 July","yNp1gERGoEc"],["5 July","eGg3y5JW52U"],["27 June","lZ3Zjo50lIM"]].map(function(x,i){var w=x[0].split(" ");return{d:x[0],day:w[0],m:M[w[1]],u:"https://youtu.be/"+x[1],s:P[i%6]}});
+var X={
+ "QX5KeOOqntY": [
+  "Ciqikou Ancient Town: 1,000 Years of History",
+  "images/2026-10-11.jpg"
+ ],
+ "scd8M-s0sAs": [
+  "Chongqing Jiefangbei: Night Walk & Food Heaven",
+  "images/2026-10-04.jpg"
+ ],
+ "G-kNVwcnZRQ": [
+  "Best Hotel in Chongqing? 44th Floor Suite Tour",
+  "images/2026-10-03.jpg"
+ ],
+ "XviLJUHeCWk": [
+  "China's Misty Gorge Hidden River Cruise",
+  "images/2026-09-27.jpg"
+ ],
+ "ywTh0F1ZSIc": [
+  "1,700-Year-Old Gongtan Ancient Town",
+  "images/2026-09-26.jpg"
+ ],
+ "8LvWERbUfAM": [
+  "Tianmen Mountain Heavens Gate: Full Day & Night Review",
+  "images/2026-09-14.jpg"
+ ],
+ "1bYpT6JvABA": [
+  "Zhangjiajie's HIDDEN Night Market: Meili Xiangxi Grand Theatre",
+  "images/2026-09-13.jpg"
+ ],
+ "WIw-hGkAB0E": [
+  "Zhangjiajie Must-Eat: Brigade Old Fishing Village 1973",
+  "images/2026-09-07.jpg"
+ ],
+ "4Rwesq6_CDE": [
+  "Huangshizhai + Golden Whip Stream: Zhangjiajie Line C - Full Review",
+  "images/2026-09-06.jpg"
+ ],
+ "S7O0lEKmKUc": [
+  "Most Tourists Never See This: Zhangjiajie Line A - Full Review",
+  "images/2026-08-31.jpg"
+ ],
+ "wRO98hk5ZxU": [
+  "Exploring Zhangjiajie Line B Full Review",
+  "images/2026-08-30.jpg"
+ ],
+ "qcUk0cFXlCk": [
+  "World Champion Cave: Yellow Dragon Cave Full Tour",
+  "images/2026-08-23-a.jpg"
+ ],
+ "73rHeINqlxo": [
+  "FULL Experience: Zhangjiajie Grand Canyon",
+  "images/2026-08-23-b.jpg"
+ ],
+ "KxvDawiQuTs": [
+  "China's Waterfall Town Comes Alive! Furong at Night",
+  "images/2026-08-16.jpg"
+ ],
+ "zIQiFhLF7YI": [
+  "Walking Through a Waterfall! Furong Ancient Town",
+  "images/2026-08-15.jpg"
+ ],
+ "EQyj4tS5rgQ": [
+  "Hidden Gems of Furong Town: Floral Hotel · Baihe Huagu Hotel",
+  "images/2026-08-08.jpg"
+ ],
+ "udlaMDSVHkw": [
+  "Unreal Night Fenghuang",
+  "images/2026-07-26.jpg"
+ ],
+ "goVYwqUODNw": [
+  "Dehang Local Tour: Aizhai Bridge & Miao Village",
+  "images/2026-08-02.jpg"
+ ],
+ "yNp1gERGoEc": [
+  "Train to Fenghuang",
+  "images/2026-07-12.jpg"
+ ],
+ "kxDq_d-3jY4": [
+  "China's Most Beautiful Ancient Water Town",
+  "images/2026-07-19.jpg"
+ ],
+ "eGg3y5JW52U": [
+  "First Day in Zhangjiajie: Train + Hotel + Great Food + 72 Qilou",
+  "images/2026-07-05.jpg"
+ ],
+ "lZ3Zjo50lIM": [
+  "Zhangjiajie Self Travel Guide: 14 Days - RM 6K/pax All-in",
+  "images/2026-06-27.jpg"
+ ]
+};
+V.forEach(function(v){var k=v.u.split("/").pop();if(X[k]){v.t=X[k][0];v.img=X[k][1]}});
+function e(s){return String(s).replace(/[&<>"]/g,function(m){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]})}
+var html="",cur="";
+V.forEach(function(v){
+ if(v.m!==cur){if(cur)html+="</section>";cur=v.m;html+='<h2 class="mh">'+v.m+'</h2><section class="grid">'}
+ html+='<a class="card" href="'+e(v.u)+'" target="_blank" rel="noopener"><div class="scene'+(v.img?" photo":"")+'" style="'+v.s+'">'+(v.img?'<img alt="" src="'+v.img+'">':'<span class="sun"></span>')+'<span class="tag">'+e(v.d)+'</span><span class="play"></span></div><h3>'+e(v.t||v.day+" "+v.m)+'</h3><p>'+(v.t?e(v.d):"Watch on YouTube")+'</p></a>'});
+document.getElementById("list").innerHTML=html+"</section>";
+var F=document.getElementById("feat");F.href=V[0].u;if(V[0].img){F.classList.add("photo");F.insertAdjacentHTML("afterbegin",'<img alt="'+e(V[0].t)+'" src="'+V[0].img+'">')}
+document.getElementById("ft").textContent=V[0].t||("Uploaded "+V[0].day+" "+V[0].m);
+["s1","s2"].forEach(function(i){document.getElementById(i).href=CHANNEL});
+</script>
+</body>
+</html>
